@@ -1,0 +1,133 @@
+{
+  "imposters": [
+    {
+      "protocol": "http",
+      "port": 3000,
+      "recordRequests": false,
+      "stubs": [
+        {
+          "predicates": [
+            {
+              "caseSensitive": true,
+              "deepEquals": {
+                "path": "/todos/1"
+              }
+            }
+          ],
+          "responses": [
+            {
+              "is": {
+                "statusCode": 200,
+                "headers": {
+                  "Date": "Wed, 04 Mar 2020 03:45:15 GMT",
+                  "Content-Type": "application/json; charset=utf-8",
+                  "Transfer-Encoding": "chunked",
+                  "Connection": "close",
+                  "Set-Cookie": "__cfduid=d18e57e7d0b6a6093a991a72131e98dd71583293515; expires=Fri, 03-Apr-20 03:45:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax",
+                  "X-Powered-By": "Express",
+                  "Vary": "Origin, Accept-Encoding",
+                  "Access-Control-Allow-Credentials": "true",
+                  "Cache-Control": "max-age=14400",
+                  "Pragma": "no-cache",
+                  "Expires": "-1",
+                  "X-Content-Type-Options": "nosniff",
+                  "Etag": "W/\"53-hfEnumeNh6YirfjyjaujcOPPT+s\"",
+                  "Via": "1.1 vegur",
+                  "CF-Cache-Status": "HIT",
+                  "Age": "2680",
+                  "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+                  "Server": "cloudflare",
+                  "CF-RAY": "56e89a764ce9f8f3-NRT",
+                  "Content-Encoding": "gzip"
+                },
+                "body": "H4sIAAAAAAAAA6vmUlBQKi1OLfJMUbJSMNQBcTMRzJLMkpxUJSsFpZTUnNTkktJihcTSEhBOzVUCK0jOzy3ISS1JBWlJS8wpTuWqBQA33AG3UwAAAA==",
+                "_mode": "binary"
+              }
+            }
+          ]
+        },
+        {
+          "predicates": [
+            {
+              "caseSensitive": true,
+              "deepEquals": {
+                "path": "/todos/5"
+              }
+            }
+          ],
+          "responses": [
+            {
+              "is": {
+                "statusCode": 200,
+                "headers": {
+                  "Date": "Wed, 04 Mar 2020 03:46:15 GMT",
+                  "Content-Type": "application/json; charset=utf-8",
+                  "Transfer-Encoding": "chunked",
+                  "Connection": "close",
+                  "Set-Cookie": "__cfduid=da93ed76ed7418844ddc3d62ea6d40b011583293553; expires=Fri, 03-Apr-20 03:45:53 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax",
+                  "X-Powered-By": "Express",
+                  "Vary": "Origin, Accept-Encoding",
+                  "Access-Control-Allow-Credentials": "true",
+                  "Cache-Control": "max-age=14400",
+                  "Pragma": "no-cache",
+                  "Expires": "-1",
+                  "X-Content-Type-Options": "nosniff",
+                  "Etag": "W/\"80-nIDrpgGIpb97HlRnMUJPolcZWGI\"",
+                  "Via": "1.1 vegur",
+                  "CF-Cache-Status": "REVALIDATED",
+                  "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+                  "Server": "cloudflare",
+                  "CF-RAY": "56e89b670c52ef5d-NRT",
+                  "Content-Encoding": "gzip"
+                },
+                "body": "H4sIAAAAAAAAAx3MsQ3DMAxE0d5THFincZHGG2QM2mKAAyhLlqg0QXYP5O795n8XQEa39kqyYX3M5OTzZjDcZIO47qWxdM3IxZ1BhQXsZMY1tBOaWNkP4hpU1FY+THYG6D6y3Lej5OoWNv9v9W7L7w9WP9kMgAAAAA==",
+                "_mode": "binary"
+              }
+            }
+          ]
+        },
+        {
+          "predicates": [
+            {
+              "caseSensitive": true,
+              "deepEquals": {
+                "path": "/todos/5"
+              }
+            }
+          ],
+          "responses": [
+            {
+              "is": {
+                "statusCode": 200,
+                "headers": {
+                  "Date": "Wed, 04 Mar 2020 03:46:13 GMT",
+                  "Content-Type": "application/json; charset=utf-8",
+                  "Transfer-Encoding": "chunked",
+                  "Connection": "close",
+                  "Set-Cookie": "__cfduid=db19c9a5de6080a28848b0be272463c6f1583293573; expires=Fri, 03-Apr-20 03:46:13 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax",
+                  "X-Powered-By": "Express",
+                  "Vary": "Origin, Accept-Encoding",
+                  "Access-Control-Allow-Credentials": "true",
+                  "Cache-Control": "max-age=14400",
+                  "Pragma": "no-cache",
+                  "Expires": "-1",
+                  "X-Content-Type-Options": "nosniff",
+                  "Etag": "W/\"80-nIDrpgGIpb97HlRnMUJPolcZWGI\"",
+                  "Via": "1.1 vegur",
+                  "CF-Cache-Status": "UPDATING",
+                  "Age": "132942",
+                  "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+                  "Server": "cloudflare",
+                  "CF-RAY": "56e89be27cbbefbc-NRT",
+                  "Content-Encoding": "gzip"
+                },
+                "body": "H4sIAAAAAAAAAx3MsQ3DMAxE0d5THFincZHGG2QM2mKAAyhLlqg0QXYP5O795n8XQEa39kqyYX3M5OTzZjDcZIO47qWxdM3IxZ1BhQXsZMY1tBOaWNkP4hpU1FY+THYG6D6y3Lej5OoWNv9v9W7L7w9WP9kMgAAAAA==",
+                "_mode": "binary"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+
+https://jsonplaceholder.typicode.com/todos
+
+
+###
+POST http://localhost:2525/imposters
+
+< recordReplay.json
+
+###
+http://localhost:3000/todos/1
+
+###
+GET http://localhost:3000/todos/5
+
+###
+DELETE http://localhost:2525/imposters/3000
+
+
+
+mb replay
+mb save --savefile imposters.json --removeProxies
+mb --configfile imposters.json

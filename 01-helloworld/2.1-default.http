@@ -1,0 +1,36 @@
+POST http://localhost:2525/imposters
+Connection: Keep-Alive
+
+{
+    "protocol": "http",
+    "port": 3000
+}
+
+###
+GET http://localhost:3000
+
+### 
+DELETE http://localhost:2525/imposters/3000
+
+###
+POST http://localhost:2525/imposters
+Connection: Keep-Alive
+
+{
+    "protocol": "http",
+    "port": 3000,
+    "defaultResponse": {
+        "statusCode": 400,
+        "headers": {
+            "Connection": "Keep-Alive",
+            "Content-Length": 0
+        }
+    },
+    "stubs": [{
+        "responses": [{
+            "is": {"body": "BOOM!!!"}
+        }]
+    }]
+}
+
+

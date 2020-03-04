@@ -1,0 +1,19 @@
+POST http://localhost:2525/imposters
+
+< basicPredicates.json
+
+###
+GET http://localhost:3000
+
+### 
+GET http://localhost:3000
+
+Which route are you flying?
+
+### 
+GET http://localhost:3000
+
+Where did you get your degree?
+
+###
+DELETE http://localhost:2525/imposters/3000

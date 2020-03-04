@@ -1,0 +1,18 @@
+curl -d@helloWorld.json http://localhost:2525/imposters
+
+###
+GET http://localhost:2525/imposters
+
+###
+GET http://localhost:2525/imposters/3000
+
+###
+GET http://localhost:3000/
+
+###
+DELETE http://localhost:2525/imposters/3000
+
+###
+DELETE http://localhost:2525/imposters
+
+

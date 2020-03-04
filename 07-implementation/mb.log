@@ -1,0 +1,75 @@
+{"message":"[mb:2525] mountebank v2.2.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2020-03-04T03:22:14.421Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:22:19.309Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:22:30.239Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:23:05.277Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:23:05.297Z"}
+{"message":"[mb:2525] GET /imposters","level":"info","timestamp":"2020-03-04T03:23:14.474Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:23:22.227Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:23:25.101Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49603 => GET /","level":"info","timestamp":"2020-03-04T03:23:40.164Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:23:52.690Z"}
+{"message":"[http:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:23:52.691Z"}
+{"message":"[mb:2525] GET /imposters/3000","level":"info","timestamp":"2020-03-04T03:23:57.757Z"}
+{"message":"[mb:2525] GET /imposters/3000","level":"info","timestamp":"2020-03-04T03:24:09.219Z"}
+{"message":"[mb:2525] DELETE /imposters","level":"info","timestamp":"2020-03-04T03:24:13.920Z"}
+{"message":"[mb:2525] GET /imposters/3000","level":"info","timestamp":"2020-03-04T03:24:17.564Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:24:44.646Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:24:44.648Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49617 => GET /","level":"info","timestamp":"2020-03-04T03:25:02.964Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:25:37.959Z"}
+{"message":"[http:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:25:37.960Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:25:45.006Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:25:48.835Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:25:48.837Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49623 => GET /","level":"info","timestamp":"2020-03-04T03:25:52.381Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:28:24.033Z"}
+{"message":"[http:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:28:24.034Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:28:34.828Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:28:34.830Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49633 => GET /","level":"info","timestamp":"2020-03-04T03:28:41.997Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49634 => GET /","level":"info","timestamp":"2020-03-04T03:28:43.422Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49636 => GET /","level":"info","timestamp":"2020-03-04T03:28:44.581Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49637 => GET /","level":"info","timestamp":"2020-03-04T03:28:45.307Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49638 => GET /","level":"info","timestamp":"2020-03-04T03:28:46.105Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49639 => GET /","level":"info","timestamp":"2020-03-04T03:28:46.679Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49640 => GET /","level":"info","timestamp":"2020-03-04T03:28:47.175Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49645 => GET /","level":"info","timestamp":"2020-03-04T03:29:40.704Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:29:44.166Z"}
+{"message":"[http:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:29:44.166Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:29:47.999Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:29:48.005Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49651 => GET /","level":"info","timestamp":"2020-03-04T03:30:11.669Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49652 => GET /","level":"info","timestamp":"2020-03-04T03:30:15.210Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:30:19.652Z"}
+{"message":"[http:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:30:19.652Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:31:33.547Z"}
+{"message":"[mb:2525] Invalid JSON: Type of Predicate\n- equals\n- contains\n- startsWith\n- endsWith\n- matches\n- deepequals\n- exists\n- not\n- or\n- and \n- inject","level":"error","timestamp":"2020-03-04T03:31:33.548Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:31:39.768Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:31:39.772Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49662 => GET /","level":"info","timestamp":"2020-03-04T03:31:49.180Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:33:13.369Z"}
+{"message":"[http:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:33:13.370Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:33:17.867Z"}
+{"message":"[https:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:33:17.900Z"}
+{"message":"[https:3000] ::ffff:127.0.0.1:49668 => GET /?q=Frank","level":"info","timestamp":"2020-03-04T03:33:22.651Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:37:45.892Z"}
+{"message":"[mb:2525] Invalid JSON: mb replay\nmb save --savefile imposters.json --removeProxies\nmb --configfile imposters.json","level":"error","timestamp":"2020-03-04T03:37:45.892Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:37:48.395Z"}
+{"message":"[mb:2525] Invalid JSON: mb replay\nmb save --savefile imposters.json --removeProxies\nmb --configfile imposters.json","level":"error","timestamp":"2020-03-04T03:37:48.395Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:38:05.105Z"}
+{"message":"[https:3000] Ciao for now","level":"info","timestamp":"2020-03-04T03:38:05.106Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:39:38.367Z"}
+{"message":"[mb:2525] DELETE /imposters/3000","level":"info","timestamp":"2020-03-04T03:44:58.152Z"}
+{"message":"[mb:2525] POST /imposters","level":"info","timestamp":"2020-03-04T03:45:06.649Z"}
+{"message":"[http:3000] Open for business...","level":"info","timestamp":"2020-03-04T03:45:06.653Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49706 => GET /todos/1","level":"info","timestamp":"2020-03-04T03:45:14.663Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:45:32.595Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:45:34.076Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49727 => GET /todos/5","level":"info","timestamp":"2020-03-04T03:45:53.360Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:46:05.107Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49734 => GET /todos/5","level":"info","timestamp":"2020-03-04T03:46:13.118Z"}
+{"message":"[http:3000] ::ffff:127.0.0.1:49736 => GET /todos/5","level":"info","timestamp":"2020-03-04T03:46:18.171Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:46:22.415Z"}
+{"message":"[mb:2525] GET /images/book.jpg","level":"info","timestamp":"2020-03-04T03:46:24.104Z"}
+{"message":"[mb:2525] GET /imposters?replayable=true&removeProxies=true","level":"info","timestamp":"2020-03-04T03:47:52.011Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2020-03-04T03:48:26.780Z"}

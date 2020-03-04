@@ -1,0 +1,35 @@
+POST http://localhost:2525/imposters
+
+< typeOfPredicates.json
+
+###
+GET http://localhost:3000
+
+Which route xxxxx fly?
+
+###
+DELETE http://localhost:2525/imposters/3000
+
+
+
+Type of Predicate
+- equals
+- contains
+- startsWith
+- endsWith
+- matches
+- deepequals
+- exists
+- not
+- or
+- and 
+- inject
+
+
+support
+direct json
+JSONPath (with selector Ex. “$.identities[(@.length-1)].career”
+XML Value (XPath)
+
+
+
